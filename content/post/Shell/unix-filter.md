@@ -2,7 +2,7 @@
 title: "Unix filter"
 date: 2026-02-26
 draft: false
-categories: ["9044"]['Shell']
+categories: ["9044","Shell"]
 tags: ["Shell"]
 ---
 
