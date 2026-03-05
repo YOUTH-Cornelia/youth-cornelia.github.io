@@ -241,6 +241,9 @@ for w in words:
 ```
 
 ### 6、二维列表结构
+>二维列表通常和移动 + 边界检查一起使用
+例如：
+grid / matrix / maze / spiral
 
 **模板**
 
