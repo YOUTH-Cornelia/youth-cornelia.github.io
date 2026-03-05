@@ -42,7 +42,7 @@ for n in nums:
         res.append(n)
 ```
 
-### 2、累计计算（计数 / 求和）(和defaultdic集合)
+### 2、累计计算（计数 / 求和）(和defaultdict集合)
 
 **模板**
 
@@ -329,12 +329,7 @@ monotonic array、
 
 ### ② 双指针扫描（two pointers）
 
-用两个指针控制区间：
-
-```
-left
-right
-```
+用两个指针（left and right）控制区间：
 
 **模板**
 
@@ -368,11 +363,11 @@ while left < right:
 
 其实都是：**用索引控制扫描**
 
-可以是：
-`
-i
-i,i+1
-left,right`
+- 单指针：i
+
+- 相邻指针：i, i+1
+
+- 双指针：left, right
 
 本质就是：`index scan`
 
